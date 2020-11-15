@@ -1,0 +1,19 @@
+// Tailwind config
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Variables
+@import "./variables.scss";
+
+// Helpers
+@import "./helpers.scss";
+
+// Globals
+@import "./global.scss";
+
+// Typography
+@import "./typography.scss";
+
+// Components
+@import "../components/Tooltip/style.scss";

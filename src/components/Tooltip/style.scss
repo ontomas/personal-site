@@ -1,0 +1,8 @@
+.tooltip {
+  position: absolute;
+  background: $white;
+  color: $dark;
+  visibility: hidden;
+  border-radius: 5px;
+  bottom: calc(100% + 0.4rem);
+}

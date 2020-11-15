@@ -1,0 +1,28 @@
+body {
+  font-family: "Clacon", "Roboto Mono", "Helvetica Neue", sans-serif;
+  color: $white;
+  background-color: $dark;
+  line-height: 1;
+}
+
+.text-glitch {
+  text-shadow: 1px 1px 0px rgba(37, 216, 255, 0.6),
+    -1px -1px 0px rgba(255, 143, 198, 0.6);
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: $terminal;
+}
+
+mark {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $white;
+}
+
+.text-3xl {
+  font-size: clamp(1.875rem, 4.6vw, 3.8rem);
+}
+.text-2xl {
+  font-size: clamp(1.5rem, 4.6vw, 2rem);
+}
