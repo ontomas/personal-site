@@ -28,16 +28,14 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Animations turnOn />
       <div className="pointer-events-auto">
-        <div className="mb-10 mx-auto" style={{ maxWidth: "150px" }}>
+        <div className="mb-10 mx-auto w-40">
           <Img fluid={data.avatar.childImageSharp.fluid} />
         </div>
         <p className="text-3xl uppercase text-glitch mb-5">
           Hi, I'm{" "}
-          {/* <Tooltip content="That's me right there">
-            <span>
-              <mark>Tomas Oniščiukas</mark>
-            </span>
-          </Tooltip> */}
+          <span>
+            <mark>Tomas Oniščiukas</mark>
+          </span>
         </p>
         <p className="text-3xl uppercase text-glitch mb-5">
           A bunch of atoms held together and propeld forward by frontend
@@ -49,11 +47,9 @@ const IndexPage = () => {
             <span className="underline">Nordsec</span>
           </Link>{" "}
           in{" "}
-          {/* <Tooltip content={data.map}>
-            <span>
-              <mark>Vilnius</mark>
-            </span>
-          </Tooltip> */}
+          <span>
+            <mark>Vilnius</mark>
+          </span>
           .
         </p>
       </div>

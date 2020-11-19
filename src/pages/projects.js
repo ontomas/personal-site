@@ -9,7 +9,7 @@ const ProjectsPage = () => (
     <Animations />
     <ul className="uppercase text-glitch">
       <li>
-        <Link to="#">
+        <Link to="https://github.com/ontomas/personal-site">
           <h2 className="underline text-3xl">This website</h2>
           <p className="uppercase">Design / Frontend</p>
         </Link>
