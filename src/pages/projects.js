@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Layout, SEO } from "../components"
+import { Layout, Animations, SEO } from "../components"
 
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
+    <Animations />
     <ul className="uppercase text-glitch">
       <li>
         <Link to="#">

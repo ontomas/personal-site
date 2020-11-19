@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header siteTitle={data.site.siteMetadata?.title || `ontomas`} />
       <div className="container mx-auto px-4">
         <main>{children}</main>
       </div>

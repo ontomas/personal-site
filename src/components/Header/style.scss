@@ -1,0 +1,11 @@
+.Header {
+  &__menu-item {
+    padding-left: 25px;
+    &--active {
+      &:before {
+        content: "> ";
+      }
+      padding-left: 0;
+    }
+  }
+}
