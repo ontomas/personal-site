@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header className="py-8">
+  <header className="py-10">
     <div className="container mx-auto px-4 text-2xl uppercase text-glitch">
       <h1>
         <Link

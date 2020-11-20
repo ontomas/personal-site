@@ -1,10 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Animations = ({ turnOn }) => {
+const Animations = ({ turnOn, extraGlitch }) => {
   return (
     <div className="Animations pointer-events-none">
-      <div className="crt"></div>
+      <div className={`crt${extraGlitch ? "--extra" : ""}`}></div>
       <div className="channel">
         {/* or current page info */}
         <p className="text-glitch">AV-1</p>

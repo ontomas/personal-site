@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import { Layout, SEO, Animations } from "../components"
@@ -32,10 +32,7 @@ const IndexPage = () => {
           <Img fluid={data.avatar.childImageSharp.fluid} />
         </div>
         <p className="text-3xl uppercase text-glitch mb-5">
-          Hi, I'm{" "}
-          <span>
-            <mark>Tomas Oniščiukas</mark>
-          </span>
+          Hi, I'm <mark>Tomas Oniščiukas</mark>
         </p>
         <p className="text-3xl uppercase text-glitch mb-5">
           A bunch of atoms held together and propeld forward by frontend
@@ -43,14 +40,15 @@ const IndexPage = () => {
         </p>
         <p className="text-3xl uppercase text-glitch">
           Currently doing all that at{" "}
-          <Link to="https://nordsec.com">
-            <span className="underline">Nordsec</span>
-          </Link>{" "}
-          in{" "}
-          <span>
-            <mark>Vilnius</mark>
-          </span>
-          .
+          <a
+            className="underline"
+            href="https://nordsec.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Nordsec
+          </a>{" "}
+          in <mark>Vilnius</mark>.
         </p>
       </div>
     </Layout>
