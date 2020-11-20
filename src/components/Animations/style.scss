@@ -48,8 +48,8 @@
           transparentize(#00ff00, 0.98),
           transparentize(#0000ff, 0.94)
         );
-      background-size: 100% 2px, 3px 100%;
-      animation: flicker 0.15s infinite;
+      background-size: 100% 1px, 4px 100%;
+      animation: flicker 0.1s infinite;
     }
     @keyframes flicker {
       $steps: 20;
@@ -98,7 +98,7 @@
   & .channel {
     color: $terminal;
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 20px;
     font-size: 60px;
     visibility: hidden;
@@ -135,7 +135,7 @@
       right: 0;
       width: 100%;
       background-color: $dark;
-      animation: turn-on 4s linear;
+      animation: turn-on 3s linear;
       animation-fill-mode: forwards;
       opacity: 1;
     }
