@@ -82,7 +82,7 @@
             transparentize(#0000ff, 0.94)
           );
         background-size: 100% 1px, 3px 100%;
-        animation: flicker 0.1s infinite;
+        animation: flicker 0.05s infinite;
       }
       @keyframes flicker {
         $steps: 20;
