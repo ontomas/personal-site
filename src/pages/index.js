@@ -26,7 +26,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Animations turnOn />
+      <Animations turnOn channel />
       <div className="pointer-events-auto">
         <div className="mb-10 mx-auto w-40">
           <Img fluid={data.avatar.childImageSharp.fluid} />

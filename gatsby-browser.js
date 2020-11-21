@@ -6,5 +6,3 @@
 
 // Styles
 import "./src/scss/index.scss"
-
-// Scripts
