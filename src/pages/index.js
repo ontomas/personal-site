@@ -35,7 +35,7 @@ const IndexPage = () => {
           Hi, I'm <mark>Tomas Oniščiukas</mark>
         </p>
         <p className="text-3xl uppercase text-glitch mb-5">
-          A bunch of atoms held together and propeld forward by frontend
+          A bunch of atoms held together and propelled forward by frontend
           development, process optimisation and problem solving in general.
         </p>
         <p className="text-3xl uppercase text-glitch">
