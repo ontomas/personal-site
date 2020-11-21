@@ -40,7 +40,7 @@
       height: 100%;
       background: linear-gradient(
           transparentize($dark, 1) 50%,
-          transparentize(darken($dark, 10), 0.75) 50%
+          transparentize(darken($dark, 10), 0.85) 50%
         ),
         linear-gradient(
           90deg,
@@ -48,8 +48,8 @@
           transparentize(#00ff00, 0.98),
           transparentize(#0000ff, 0.94)
         );
-      background-size: 100% 1px, 4px 100%;
-      animation: flicker 0.1s infinite;
+      background-size: 100% 2px, 4px 100%;
+      animation: flicker 0.01s infinite;
     }
     @keyframes flicker {
       $steps: 20;
@@ -73,7 +73,7 @@
         height: 100%;
         background: linear-gradient(
             transparentize($dark, 1) 50%,
-            transparentize(darken($dark, 10), 0.75) 50%
+            transparentize(darken($dark, 10), 0.65) 50%
           ),
           linear-gradient(
             90deg,
@@ -81,8 +81,8 @@
             transparentize(#00ff00, 0.98),
             transparentize(#0000ff, 0.94)
           );
-        background-size: 100% 1px, 3px 100%;
-        animation: flicker 0.05s infinite;
+        background-size: 100% 2px, 3px 100%;
+        animation: flicker 0.1s infinite;
       }
       @keyframes flicker {
         $steps: 20;
@@ -105,7 +105,6 @@
     pointer-events: none;
     animation: overlay-anim 5s linear;
     animation-fill-mode: forwards;
-    z-index: 4;
 
     @keyframes overlay-anim {
       0% {
