@@ -10,14 +10,14 @@ const IndexPage = () => {
       avatar: file(relativePath: { eq: "avatar-xs.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid_noBase64
+            ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
       }
       map: file(relativePath: { eq: "map.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid_noBase64
+            ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
       }
