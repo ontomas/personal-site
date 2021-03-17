@@ -1,6 +1,6 @@
 ---
-title: "Rašytojai"
-date: "2020-12-12"
-url: "https://rasytojai.lt"
-tags: ['frontend', 'wordpress']
+title: "Clother"
+date: "2021-03-17"
+url: "https://clother.netlify.app"
+tags: ["figma", "react"]
 ---
