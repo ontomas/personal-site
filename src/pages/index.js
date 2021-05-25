@@ -1,24 +1,20 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import { Layout, SEO, Animations } from "../components"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
-    query {
+    {
       avatar: file(relativePath: { eq: "avatar-xs.png" }) {
         childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
-          }
+          gatsbyImageData(layout: FIXED)
         }
       }
       map: file(relativePath: { eq: "map.png" }) {
         childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
-          }
+          gatsbyImageData(layout: FIXED)
         }
       }
     }
@@ -29,7 +25,7 @@ const IndexPage = () => {
       <Animations turnOn channel />
       <div className="pointer-events-auto">
         <div className="mb-10 mx-auto w-40">
-          <Img fluid={data.avatar.childImageSharp.fluid} />
+          <GatsbyImage image={data.avatar.childImageSharp.gatsbyImageData} />
         </div>
         <p className="text-3xl uppercase text-glitch mb-5">
           Hi, I'm <mark>Tomas Oniščiukas</mark>
