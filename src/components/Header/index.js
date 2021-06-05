@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
             className="Header__menu-item"
             activeClassName="Header__menu-item--active"
           >
-            <span className="underline">Project</span>
+            <span className="underline">Projects</span>
           </Link>
         </li>
         {/* <li className="underline">
